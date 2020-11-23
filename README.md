@@ -1,5 +1,5 @@
 # Proyecto Final de Trimestre 1
-====
+
 ## Proyecto creado por Moisés Ortiz Fernández
 
 Proyecto para la asignatura **Base de datos No Relacionales** utilizando **_MongoDB_** para crear una colección dentro de una base de datos y utilizar varios métodos para realizar inserciones y consultas.
