@@ -6,8 +6,8 @@ Proyecto para la asignatura **Base de datos No Relacionales** utilizando **_Mong
 
 Dentro de este repositorio encontrarás:
 
-... Documentación del proyecto
-... Archivos .js con el código del proyecto
+>Documentación del proyecto
+>Archivos .js con el código del proyecto
 
 *Para subir estos archivos a Github*:
 
