@@ -1,0 +1,26 @@
+//En esta colección he creado videojuegos que se venden en una tienda, estos estarán dentro de la colección "videojuegos" en la base de datos "g2proyectotrimestre"
+//La explicación de cada campo se encuentra en la documentación del proyecto
+db.videojuegos.insertMany([
+    {Nombre:"Hades", FechaSalida: new Date("2020-09-17"), datos: {plataforma: "PC", calificacion: 9}, edicion: ["fisico","digital"], disponibilidad: true, precio: 34, stock: 23},
+    {Nombre:"CyberPunk 2077", FechaSalida: new Date("2020-12-10"), datos: {plataforma: "PC", calificacion: 9}, edicion: ["fisico","digital"], disponibilidad: true, precio: 60, stock: 100},
+    {Nombre:"SpiderMan: Miles Morales", FechaSalida: new Date("2020-11-12"), datos: {plataforma: "PS4", calificacion: 8}, edicion: "fisico", disponibilidad: false, precio: 60, stock: 0},
+    {Nombre:"Assasin's Creed: Valhalla", FechaSalida: new Date("2020-11-10"), datos: {plataforma: "PC", calificacion: 8}, edicion: ["fisico","digital"], disponibilidad: false, precio: 60, stock: 13},
+    {Nombre:"Pikmin 3", FechaSalida: new Date("2020-08-30"), datos: {plataforma: "Switch", calificacion: 7}, edicion: "digital", disponibilidad: false, precio: 40, stock: 0},
+    {Nombre:"Super Mario 3D All-Stars", FechaSalida: new Date("2020-09-18"), datos: {plataforma: "Switch", calificacion: 6}, edicion: ["fisico","digital"], disponibilidad: false, precio: 70, stock: 0},
+    {Nombre:"Kindgom Hearts: MoM", FechaSalida: new Date("2020-11-13"), datos: {plataforma: "Xbox", calificacion: 8}, edicion: ["fisico","digital"], disponibilidad: true, precio: 45, stock: 46},
+    {Nombre:"DIRT 5", FechaSalida: new Date("2020-10-03"), datos: {plataforma: "Xbox", calificacion: 5}, edicion: "digital", disponibilidad: true, precio: 25, stock: 65},
+    {Nombre:"The Last Of Us Parte II", FechaSalida: new Date("2020-06-19"), datos: {plataforma: "PS4", calificacion: 5}, edicion: ["fisico","digital"], disponibilidad: false, precio: 52, stock: 0},
+    {Nombre:"Ghost of Tsushima", FechaSalida: new Date("2020-07-17"), datos: {plataforma: "PS4", calificacion: 8}, edicion: "fisico", disponibilidad: true, precio: 46, stock: 12},
+    {Nombre:"Grand Theft Auto V", FechaSalida: new Date("2013-11-18"), datos: {plataforma: "PC", calificacion: 9}, edicion: ["fisico","digital"], disponibilidad: true, precio: 25, stock: 65},
+    {Nombre:"Red Dead Redemption", FechaSalida: new Date("2010-05-18"), datos: {plataforma: "PS4", calificacion: 8}, edicion: ["fisico","digital"], disponibilidad: false, precio: 18, stock: 0},
+    {Nombre:"Metal Gear Solid 2", FechaSalida: new Date("2001-10-12"), datos: {plataforma: "PS2", calificacion: 9}, edicion: "fisico", disponibilidad: true, precio: 15, stock: 4},
+    {Nombre:"Persona 5", FechaSalida: new Date("2017-04-04"), datos: {plataforma: "PS4", calificacion: 8}, edicion: ["fisico","digital"], disponibilidad: true, precio: 20, stock: 36},
+    {Nombre:"Portal 2", FechaSalida: new Date("2011-04-19"), datos: {plataforma: "PC", calificacion: 9}, edicion: "digital", disponibilidad: true, precio: 5, stock: 100},
+    {Nombre:"Final Fantasy XV", FechaSalida: new Date("2016-11-29"), datos: {plataforma: "Xbox", calificacion: 6}, edicion: ["fisico","digital"], disponibilidad: false, precio: 32, stock: 0},
+    {Nombre:"Celeste", FechaSalida: new Date("2018-01-26"), datos: {plataforma: "PC", calificacion: 7}, edicion: "digital", disponibilidad: true, precio: 26, stock: 84},
+    {Nombre:"Super Mario Oddysey", FechaSalida: new Date("2017-09-27"), datos: {plataforma: "Switch", calificacion: 8}, edicion: ["fisico","digital"], disponibilidad: false, precio: 54, stock: 0},
+    {Nombre:"Tekken 7", FechaSalida: new Date("2013-03-18"), datos: {plataforma: "PS4", calificacion: 7}, edicion: "fisico", disponibilidad: true, precio: 9, stock: 18},
+    {Nombre:"Final Fantasy XIV", FechaSalida: new Date("2013-08-24"), datos: {plataforma: "PC", calificacion: 6}, edicion: ["fisico","digital"], disponibilidad: false, precio: 10, stock: 0},
+    {Nombre:"The Last of Us", FechaSalida: new Date("2013-06-14"), datos: {plataforma: "PS4", calificacion: 8}, edicion: ["fisico","digital"], disponibilidad: false, precio: 19, stock: 0},
+    {Nombre:"Halo: MasterChief Collection", FechaSalida: new Date("2014-11-11"), datos: {plataforma: "Xbox", calificacion: 7}, edicion: ["fisico","digital"], disponibilidad: true, precio: 16, stock: 67},
+])
