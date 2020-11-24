@@ -12,7 +12,7 @@ db.videojuegos.find({$and: [{"datos.calificacion":{$lte: 8}}, {"edicion":{$all: 
 
 //Muestra los juegos donde la plataforma no sea PS4, solo estén en físico, no estén disponibles y hayan salido en la última década
 
-db.videojuegos.find({$and: [{"datos.plataforma":{$not:/PS4/}}, {"edicion":"fisico"}, {disponibilidad: false}, {FechaSalida: {$gt: new Date("2011:01:01")}}]})
+db.videojuegos.find({$and: [{"datos.plataforma":{$not:/PS4/}}, {"edicion":"fisico"}, {disponibilidad: false}, {FechaSalida: {$gt: new Date("2011-01-01")}}]})
 
 //Muestra los juegos donde el nombre no contenga una "m" o no esté en físico y estén disponibles y su precio sea menor de 35
 
